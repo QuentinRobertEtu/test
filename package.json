@@ -6,11 +6,11 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "dev": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:test": "node dist/test/server/server.mjs"
+    "start": "node dist/test/server/server.mjs"
   },
   "private": true,
   "dependencies": {
